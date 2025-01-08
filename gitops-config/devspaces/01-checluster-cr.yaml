@@ -29,6 +29,7 @@ spec:
       autoProvision: true
       template: <username>-devspaces
     maxNumberOfWorkspacesPerUser: 2
+    maxNumberOfRunningWorkspacesPerUser: 1
     secondsOfInactivityBeforeIdling: 1800
     secondsOfRunBeforeIdling: -1
     security: {}
